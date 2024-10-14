@@ -23,7 +23,6 @@ public class BaseTest {
     }
     @AfterClass
     public void tearDown ()  {
-        System.out.println("Tear Down");
-        //driver.close();
+        driver.close();
     }
 }
